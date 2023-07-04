@@ -3,7 +3,7 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { setCredentials } from "../../features/auth/authSlice";
 
 const baseQuery = fetchBaseQuery({
-  baseUrl: "https://technotes-api-l8l6.onrender.com",
+  baseUrl: "https://technotes-api-9si5.onrender.com",
   credentials: "include",
   prepareHeaders: (headers, { getState }) => {
     // api.getState
